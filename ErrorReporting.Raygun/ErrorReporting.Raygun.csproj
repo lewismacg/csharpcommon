@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyName>CSharpCommon.ErrorReporting.Raygun</AssemblyName>
+		<RootNamespace>CSharpCommon.ErrorReporting.Raygun</RootNamespace>
+		<Version>1.0.1$(VersionSuffix)</Version>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Mindscape.Raygun4Net.AspNetCore" Version="6.6.2" />
+		<PackageReference Include="Serilog.Sinks.Raygun" Version="5.0.2" />
+	</ItemGroup>
+
+</Project>

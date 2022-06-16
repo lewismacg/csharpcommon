@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyName>CSharpCommon.ValueObjects</AssemblyName>
+		<RootNamespace>CSharpCommon.ValueObjects</RootNamespace>
+		<Version>1.0.1$(VersionSuffix)</Version>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+	</PropertyGroup>
+
+</Project>

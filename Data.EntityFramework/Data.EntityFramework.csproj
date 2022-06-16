@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyName>CSharpCommon.Data.EntityFramework</AssemblyName>
+		<RootNamespace>CSharpCommon.Data.EntityFramework</RootNamespace>
+		<Version>1.0.1$(VersionSuffix)</Version>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyName>CSharpCommon.FileImportExportHelpers</AssemblyName>
+		<RootNamespace>CSharpCommon.FileImportExportHelpers</RootNamespace>
+		<Version>1.0.2$(VersionSuffix)</Version>
+		<AssemblyVersion>1.0.2.0</AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CsvHelper" Version="27.1.1" />
+		<PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+	</ItemGroup>
+
+</Project>

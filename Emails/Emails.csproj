@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyName>CSharpCommon.Emails</AssemblyName>
+		<RootNamespace>CSharpCommon.Emails</RootNamespace>
+		<Version>1.0.1$(VersionSuffix)</Version>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="SendGrid" Version="9.25.1" />
+		<PackageReference Include="SendGrid.Extensions.DependencyInjection" Version="1.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ErrorReporting.Raygun\ErrorReporting.Raygun.csproj" />
+	</ItemGroup>
+
+</Project>

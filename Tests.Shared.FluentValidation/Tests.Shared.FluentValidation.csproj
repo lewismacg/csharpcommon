@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>CSharpCommon.Tests.Shared.FluentValidation</RootNamespace>
+		<AssemblyName>CSharpCommon.Tests.Shared.FluentValidation</AssemblyName>
+		<Version>1.0.2$(VersionSuffix)</Version>
+		<AssemblyVersion>1.0.2.0</AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Blazored.FluentValidation" Version="2.0.1" />
+		<PackageReference Include="FluentAssertions" Version="5.10.3" />
+	</ItemGroup>
+
+</Project>

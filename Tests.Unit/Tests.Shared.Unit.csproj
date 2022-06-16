@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>CSharpCommon.Tests.Shared.Unit</RootNamespace>
+		<AssemblyName>CSharpCommon.Tests.Shared.Unit</AssemblyName>
+		<Version>1.0.1$(VersionSuffix)</Version>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Moq" Version="4.16.1" />
+		<PackageReference Include="Moq.AutoMock" Version="3.0.0" />
+	</ItemGroup>
+
+</Project>
